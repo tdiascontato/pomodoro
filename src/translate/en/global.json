@@ -1,0 +1,35 @@
+{
+    "NavBar": {
+        "Home": "Home",
+        "Works": "Works"
+    },
+    "Home": {
+        "Pomodoro": "Use the Pomodoro Method to study: ",
+        "Github": "Dev's Search via Github API: ",
+        "Button": "Open project!"
+    },
+    "Pomo": {
+        "Working": "We are working!",
+        "Slepping": "We are resting...",
+        "Start": "Start!",
+        "Rest": "Rest!",
+        "Pause": "Pause!",
+        "DescriptOne": "Completed cycles: ",
+        "DescriptTwo": "Time worked: ",
+        "DescriptThree": "Completed Pomodoros: "
+    },
+    "GitHub": {
+        "Search": "Search users!",
+        "DescriptOne": "Search for the username and find more information!",
+        "DescriptTwo": "Enter the user's username!",
+        "Bio": "My bio: ",
+        "Site": "My website: ",
+        "Seguidores": "Followers: ",
+        "Seguindo": "Following: "
+    },
+    "Footer": {
+        "Title": "Press and Copy me!",
+        "Copy": "You copied me!"
+    }
+
+}

@@ -1,0 +1,53 @@
+.NavBarContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin: 15px 75px;  
+}
+.Box-Menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    max-width: 50%;
+    gap: 30px;
+    list-style-type: none;
+    place-items: center;
+}
+.Box-Menu .link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: xx-large;
+
+}
+.Logo{
+    display: flex;
+    width: 60px;
+    cursor: pointer;
+  }
+.RightSide{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .RightSide img {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+  }
+  .BoxCheats{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+@media (max-width: 600px){
+    .NavBarContainer{
+      margin: 15px 25px;
+    }
+    .Box-Menu{
+      align-items: center;
+    }
+    .Box-Menu .link{
+        text-align: center;
+        font-size: x-large;
+        -webkit-font-smoothing: antialiased !important;
+    }
+}
